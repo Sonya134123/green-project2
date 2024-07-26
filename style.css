@@ -88,7 +88,7 @@ h1 {
 }
 
 footer {
-    background-color: white;
+    background-image: linear-gradient(to right,#ffffff,rgb(99, 224, 108));
     display: flex;
     justify-content: flex-start;
     align-items: center;
