@@ -133,7 +133,7 @@ width: 13px;
 height: 13px;
 }
 header .button:hover{
-background-color:rgb(140, 216, 123) ;
+background-image: linear-gradient(to right,#83d65f,rgb(19, 75, 23));
 color: #b10000;
 }
 main .post:hover{
