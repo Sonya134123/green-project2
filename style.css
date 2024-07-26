@@ -91,7 +91,7 @@ h1 {
 }
 
 footer {
-     background-image: linear-gradient(to right,#cbcecc,rgb(99, 224, 108));
+     background-image: linear-gradient(to right,#f0fcf4,rgb(99, 224, 108));
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -139,7 +139,7 @@ height: 13px;
 }
 header .button:hover{
 background-image: linear-gradient(to right,#83d65f,rgb(19, 75, 23));
-color: #162779;
+color: #ffffff;
 }
 main .post:hover{
     background-image: linear-gradient(to right,#83d65f,rgb(19, 75, 23));
