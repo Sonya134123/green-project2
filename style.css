@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: black;
+   background-color: rgb(0, 0, 0);
 }
 
 header {
@@ -12,7 +12,7 @@ header {
 }
 
 .button {
-    background-color: #36bbce;
+    background-color: #5476c5;
     color: black;
     text-decoration: none;
     padding: 15px;
@@ -23,10 +23,12 @@ header {
 
 nav {
     border-top: 5px solid white;
-    border-bottom: 5px solid white;
+    border-bottom: 5px solid rgb(255, 255, 255);
     padding: 25px 100px 25px 95px;
     display: flex;
     justify-content: space-between;
+    
+    
 }
 
 .nav-link {
@@ -34,6 +36,7 @@ nav {
     color: white;
     text-decoration: none;
     display: block;
+     border-bottom: 3px dashed rgb(81, 213, 52);
 }
 
 h1 {
@@ -76,8 +79,8 @@ h1 {
     text-align: center;
     padding: 10px 75px 10px 75px;
     display: block;
+   
 }
-
 .full-image {
     margin: 100px 0px 100px 0px;
 }
@@ -88,12 +91,13 @@ h1 {
 }
 
 footer {
-    background-image: linear-gradient(to right,#ffffff,rgb(99, 224, 108));
+     background-image: linear-gradient(to right,#cbcecc,rgb(99, 224, 108));
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 30px 30px 20px 45px;
-
+     border-top: 5px solid white;
+     
 }
 
 .footer-text {
@@ -102,8 +106,9 @@ footer {
 }
 
 .footer-text span {
-    color: #850AE5;
+    color: #111e80;
     font-weight: bolder;
+    
 }
 .social_network{
     width:100px;
@@ -123,24 +128,24 @@ footer {
     top:2%;
 }
 .address::before{
-content: url("https://learn.logikaschool.com/uploads/student/4598294/66a21f90f16e4.png");
+content: url("https://learn.logikaschool.com/uploads/student/4598294/66a21f3b15223.png");
 width: 20px;
 height: 20px;
 }
 .tel::before{
-content: url("https://learn.logikaschool.com/uploads/student/4598294/66a21f3b15223.png");
+content: url("https://learn.logikaschool.com/uploads/student/4598294/66a21f90f16e4.png");
 width: 13px;
 height: 13px;
 }
 header .button:hover{
 background-image: linear-gradient(to right,#83d65f,rgb(19, 75, 23));
-color: #b10000;
+color: #162779;
 }
 main .post:hover{
     background-image: linear-gradient(to right,#83d65f,rgb(19, 75, 23));
-    color: #162779;
+    color: #ffffff ;
     font-weight: bolder;
-text-align:center;
+    text-align:center;
 
 }  
  
